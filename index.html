@@ -4,24 +4,96 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="./style.css"/>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css" integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous">
     <title>DropDown</title>
 </head>
 
 <body>
-    
+    <div class="menu-bar">
 
     <ul>
-        <li>Home</li>
-        <li>About Us</li>
-        <li>Services</li>
-        <li>Clients</li>
-        <li>Investers</li>
-        <li>Pricing</li>
-        <li>Training</li>
-        <li>Contact</li>
-    </ul>
+        <li class="active">
+            <a href="#"><i class="fa fa-home"></i>Home</a>
+            
+        </li>
 
+        <li>
+            <a href="#"><i class="fa fa-user"></i>About Us</a>
+            <div class="sub-menu-1">
+                <ul>
+                    <li>
+                        <a href="#">Mission</a>
+                    </li>
+                    <li><a href="#">Vision</a></li>
+                    <li><a href="#">Team</a></li>
+                </ul>
+            </div>
+        </li>
+        <li>
+            <a href="#"><i class="fa fa-clone"></i>Services</a>
+            <div class="sub-menu-1">
+                <ul>
+                    <li><a href="#">Web Designing</a></li>
+                    <li class="hover-me">
+                        <a href="#">Marketing</a>
+                        <div class="sub-menu-2">
+                        <ul>
+                            <li>
+                                <a href="#">SEO</a>
+                            </li>
+                            <li><a href="#">Social Media</a></li>
+                            <li><a href="#">Emial Marketing</a></li>
+                        </ul>
+                        </div>
+                    </li>
+                    <li class="hover-me">
+                        <a href="#">Mobile App</a>
+                        <div class="sub-menu-2">
+                            <ul>
+                                <li class="hover-me2">
+                                    <a href="#">Android App</a>
+                                    <div class="tombalata">
+                                        <ul>
+                                            <li>churrasco</li>
+                                            <li>pamonha</li>
+                                            <li class="hover-me3">
+                                                espetao
+                                              <div class="tombalata3">
+                                                <ul>
+                                                    <li>xampola</li>
+                                                    <li>dourada</li>
+                                                    <li>sao</li>
+                                                    <li>silverianos</li>
+                                                </ul>
+                                              </div>
+                                                
+                                            </li>
+                                        </ul>
+                                    </div>
+
+                                </li>
+                                <li >
+                                    <a href="#">IOS App</a>
+                                    
+
+                                </li>
+                                <li><a href="#">Ionic App</a></li>
+                                <li><a href="#">Flutter App</a></li>
+                                <li><a href="#">Unity App</a></li>
+                            </ul>
+                            </div>
+                    </li>
+                </ul>
+            </div>
+        </li>
+        <li><a href="#"><i class="fa fa-users"></i>Clients</a></li>
+        <li><a href="#"><i class="fa fa-angellist"></i>Investers</a></li>
+        <li><a href="#"><i class="fa fa-inr"></i>Pricing</a></li>
+        <li><a href="#"><i class="fa fa-edit"></i>Training</a></li>
+        <li><a href="#"><i class="fa fa-phone"></i>Contact</a></li>
+    </ul>
+</div>
 
     
 </body>
